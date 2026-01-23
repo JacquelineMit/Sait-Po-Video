@@ -92,13 +92,14 @@ body {
     --padding-y: 4px;
     --padding-x: 10px;
     border: 2px solid var(--c-primary);
-    background-color: #ebcaa8;
+    background-color: red;
     color: var(--c-primary);
     font-size: 12px;
     padding: var(--padding-y) var(--padding-x);
     border-radius: var(--border-radius);
     cursor: pointer;
     transition: 0.1s ease border-radius;
+
 }
 
 .company{
@@ -188,7 +189,7 @@ body {
     align-items: center;
 }
 
-.btn {
+.btnOt {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -253,5 +254,29 @@ body {
 }
 
 .toc__link {
-
+    
 }
+
+.animated-circle {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: 1s some-animation infinite alternate;
+    border-radius: 16px;
+}
+
+@keyframes some-animation {
+    50% {
+        background-color: blue;
+    }
+
+    75% {
+        transform: translateX(40px) translateY(80px) rotate(30deg);
+    }
+
+    100% {
+        transform: scale(1.2) translateX(80px) translateY(160px) rotate(15deg);
+        background-color: blue;
+    }
+}
+
