@@ -1,0 +1,257 @@
+:root {
+    --c-primary: rgb(87, 47, 47);
+    --c-text: black;
+    --c-bg: wheat;
+    --border-radius: 8px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #CBA884;
+    color: var(--c-text);
+}
+
+.header {
+    display: flex;
+    gap: 12px;
+    padding: 16px 0;
+    background-color: #D7B38E;
+}
+
+.main{
+    display: block;
+}
+
+.aside{
+    float: right;
+    position: relative;
+    color: (var(--c-primary));
+    width: 50%;
+    display: block;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 16px 0;
+    background-color: #D7B38E;
+}
+
+.fotor{
+    color: var(--c-primary);
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-right: 15%;
+    margin-left: 15%
+}
+
+.footerText{
+    color: var(--c-primary);
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sss{
+    color: var(--c-primary);
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1080px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.container--with-content {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.btn {
+    --padding-y: 4px;
+    --padding-x: 10px;
+    border: 2px solid var(--c-primary);
+    background-color: #ebcaa8;
+    color: var(--c-primary);
+    font-size: 12px;
+    padding: var(--padding-y) var(--padding-x);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: 0.1s ease border-radius;
+}
+
+.company{
+    color: var(--c-primary);
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+/* Пример классов для управления состоянием */
+/* 
+.btn--xl {
+    --padding-y: 8px;
+    --padding-x: 20px;
+}
+
+.btn--color--glow-red {
+    border-color: red;
+    background-color: red;
+    color: white;
+} 
+*/
+
+.text {
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 13px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--c-primary);
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.caption{
+    color: var(--c-primary);
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.registr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(87, 47, 47);
+    background-color: #ebcaa8;
+    color: rgb(87, 47, 47);
+    font-size: 16px;
+    padding: 12px 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s ease border-radius;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color, color, border-radius;
+}
+
+.radio_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 20px;
+}
+
+.pod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnOt--active {
+    background-color: rgb(87, 47, 47);
+    color: #ebcaa8;
+    border: 2px solid #ebcaa8;
+}
+
+.fotos{
+    border: medium solid;
+    border-color: rgb(87, 47, 47);
+}
+
+.toc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.toc__link {
+
+}

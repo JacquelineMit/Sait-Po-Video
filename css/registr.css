@@ -1,0 +1,86 @@
+:root{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn {
+    border: 1px solid rgb(87, 47, 47);
+    background-color: bisque;
+    color: rgb(87, 47, 47);
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.1s ease border-radius;
+}
+
+.registr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.radio_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 20px;
+}
+
+.pod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 47, 47);
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.btnOt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(87, 47, 47);
+    background-color: bisque;
+    color: rgb(87, 47, 47);
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.1s ease border-radius;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
