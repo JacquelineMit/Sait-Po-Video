@@ -47,17 +47,13 @@ body {
     background-color: #D7B38E;
 }
 
-.fotor{
+.fotor {
     color: var(--c-primary);
     font-size: medium;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    margin-right: 15%;
-    margin-left: 15%
 }
 
 .footerText{
@@ -86,6 +82,7 @@ body {
 .container--with-content {
     display: grid;
     grid-template-columns: 150px 1fr;
+    padding: 32px 0;
 }
 
 .btn {
@@ -102,16 +99,47 @@ body {
 
 }
 
-.company{
+.content__title {
     color: var(--c-primary);
-    font-size: medium;
+    font-size: 24px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.content__subtitle {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    color: var(--c-primary);
+    font-size: 16px;
+    text-align: center;
+}
+
+.content__h2 {
+    margin-bottom: 32px;
+    margin-top: 48px;
+    color: var(--c-primary);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.content__text {
+    margin: 20px 0;
+    color: var(--c-primary);
+    font-size: 16px;
+}
+
+.content__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content__img-list {
     display: flex;
+    gap: 12px;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin: 20px 0;
 }
 
 /* Пример классов для управления состоянием */
