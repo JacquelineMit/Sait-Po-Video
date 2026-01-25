@@ -136,11 +136,6 @@ body {
 
 .content__img-list {
     display: flex;
-    margin: 0 auto;
-}
-
-.content__img-list {
-    display: flex;
     gap: 12px;
     justify-content: center;
     align-items: center;
