@@ -89,14 +89,14 @@ body {
     --padding-y: 4px;
     --padding-x: 10px;
     border: 2px solid var(--c-primary);
-    background-color: red;
+    background-color: #D7B38E;
     color: var(--c-primary);
     font-size: 12px;
     padding: var(--padding-y) var(--padding-x);
     border-radius: var(--border-radius);
     cursor: pointer;
     transition: 0.1s ease border-radius;
-
+    text-decoration: none;
 }
 
 .content__title {
@@ -205,7 +205,7 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(87, 47, 47);
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-top: 70px;
     margin-bottom: 15px;
@@ -279,32 +279,35 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    background: #D7B38E;
 }
 
 .toc__link {
-    
+    color: rgb(87, 47, 47);
+    text-decoration: none;
 }
 
-.animated-circle {
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    animation: 1s some-animation infinite alternate;
-    border-radius: 16px;
+input[type="text"] {
+    border: 2px solid rgb(87, 47, 47);
+    border-radius: 3px;
+    background: #ebcaa8;
+    outline: none;
+    height: 20px;
+    width: 150px;
+    color: rgb(87, 47, 47);
+    font-size: 18px;
 }
 
-@keyframes some-animation {
-    50% {
-        background-color: blue;
-    }
-
-    75% {
-        transform: translateX(40px) translateY(80px) rotate(30deg);
-    }
-
-    100% {
-        transform: scale(1.2) translateX(80px) translateY(160px) rotate(15deg);
-        background-color: blue;
-    }
+input[type="radio"] {
+    accent-color: rgb(87, 47, 47);
+    height: 15px;
+    width: 15px;
+    background: #ebcaa8;
 }
 
+input[type="checkbox"] {
+    accent-color: rgb(87, 47, 47);
+    height: 15px;
+    width: 15px;
+    background: #ebcaa8;
+}
