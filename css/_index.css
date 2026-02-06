@@ -311,3 +311,31 @@ input[type="checkbox"] {
     width: 15px;
     background: #ebcaa8;
 }
+
+.input-radio__input {
+    position: fixed;
+    left: -999px;
+    top: -999px;
+}
+
+.input-radio__label {
+    --size: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: aliceblue;
+    border: 1px solid khaki;
+    height: var(--size);
+    width: var(--size);
+    border-radius: 50%;
+}
+
+.input-radio__input:checked + .input-radio__label::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: 80%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+}
