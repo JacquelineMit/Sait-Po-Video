@@ -39,6 +39,7 @@ body {
   color: (var(--c-primary));
   width: 50%;
   display: block;
+  color: #ebcaa8;
 }
 
 .footer {
