@@ -34,10 +34,6 @@ body {
 }
 
 .aside {
-  float: right;
-  position: relative;
-  color: (var(--c-primary));
-  width: 50%;
   display: block;
   color: #ebcaa8;
 }
@@ -277,7 +273,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  background: #d7b38e;
 }
 
 .toc__link {
@@ -337,4 +332,19 @@ input[type="checkbox"] {
   background-color: rgb(87, 47, 47);
   transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+
+.page-with-aside {
+  --padding-y: 32px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.page-with-aside__aside {
+  padding: var(--padding-y) 16px;
+  background: #d7b38e;
+}
+
+.page-with-aside__content {
+  padding: var(--padding-y) 16px;
 }
