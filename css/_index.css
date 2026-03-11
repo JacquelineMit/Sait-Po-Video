@@ -35,7 +35,7 @@ body {
 
 .aside {
   display: block;
-  color: #ebcaa8;
+  color: #d7b38e;
 }
 
 .footer {
@@ -343,6 +343,8 @@ input[type="checkbox"] {
 .page-with-aside__aside {
   padding: var(--padding-y) 16px;
   background: #d7b38e;
+  border: medium solid;
+  border-color: rgb(87, 47, 47);
 }
 
 .page-with-aside__content {

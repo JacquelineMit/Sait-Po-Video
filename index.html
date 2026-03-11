@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная</title>
     <link rel="stylesheet" href="./css/_index.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
   </head>
   <body>
     <header class="header">
@@ -23,7 +24,7 @@
             <a class="toc__link" href="#footer"> Наши соц. сети </a>
           </nav>
         </aside>
-        <div class="page-with-aside__content content">
+        <div class="page-with-aside__content content animate__bounce">
           <h1 class="content__title">Мир с питомцами</h1>
           <p class="content__subtitle">Добро пожаловать в сообщество!</p>
           <p id="about" class="content__text">
@@ -88,5 +89,10 @@
       <a href="" class="sss"> YouTube </a>
       <a href="" class="sss"> Яндекс Дзен </a>
     </footer>
+
+    <script src="js\wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
