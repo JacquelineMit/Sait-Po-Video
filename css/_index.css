@@ -20,6 +20,7 @@ body {
   min-height: 100vh;
   background-color: #cba884;
   color: var(--c-text);
+  overflow-x: hidden;
 }
 
 .header {
